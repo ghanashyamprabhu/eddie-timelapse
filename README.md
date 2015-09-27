@@ -18,7 +18,7 @@
  	Either of the main.js or main.py can be used to trigger captures and calls to 
  	Temboo APIs to upload pictures to Dropbox. 
 
- 3. Drop box and Temboo with OAuth
+ 3. Drop box and Temboo with OAuth 
     3.1 Create an App with Drop box 
         Go to https://www.dropbox.com/developers -> App Console -> Check Dropbox API app
         On creation of the app, it will show you the AppKey and AppSecret which you will need to 
@@ -55,7 +55,7 @@
  	    For more information on the cron formatsi and examples, refer 
  	    https://wiki.archlinux.org/index.php/Cron#Examples
 
- 5. Creating the video
+ 5. Creating the video 
     I used avconv to create the video from the images that were uploaded to Dropbox. One of the i
     requirements would be to have a good numbering of the images while creating the image files
     I used the time of the hour to create the images, but that wasn't suiting avconv, so once I 
