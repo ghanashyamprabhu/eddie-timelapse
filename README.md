@@ -1,13 +1,13 @@
 # eddie-timelapse
- 1. Description 
- 	This is a small weekend project that I worked on to create a time-lapse video
+ 1. Description
+	This is a small weekend project that I worked on to create a time-lapse video
  	using an off the shelf LogiTech webcam and an Intel Edison board. The Intel 
  	Edison platform can trigger camera captures at regular intervals using cron 
  	linux utility - Once there is a capture, a nodejs or python program calls 
  	Temboo middleware APIs to upload them to Drop box. 
 
  2. Setup Notes 
- 	For Temboo, you will need to install the temboo python or node js SDK on the 
+    	For Temboo, you will need to install the temboo python or node js SDK on the 
  	Intel Edison.
  	SDK  Setup is pretty simple - Just download the SDK, and unzip it to a 
  	directory on the Intel Edison - 
@@ -25,8 +25,8 @@
         note down so that you can use it in the main() function to authenticate connection to 
         Dropbox through Temboo API calls
 
-    3.2 Temboo 
-        Follow the setup instructions to Authorize calls to Drop box via 
+    3.2 Temboo
+    	Follow the setup instructions to Authorize calls to Drop box via 
         https://temboo.com/library/Library/Dropbox/OAuth/
         Once the InitializeOAuth and FinalizeOAuth Choreos are completed, you will see the
         'callbackID' and 'OAuth token secret' that you can use in the main() function for 
